@@ -1,8 +1,9 @@
 import LocomotiveScroll from 'locomotive-scroll'
 import React from 'react'
-import Navbar from './Components/Navbar';
+
 import Hero from './Components/Hero';
 import About from './Components/About';
+import Services from './Components/Services';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       
       <Hero/>
       <About/>
+      <Services/>
       
       
     </div>

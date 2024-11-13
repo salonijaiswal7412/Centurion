@@ -2,7 +2,7 @@ import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
 import React from 'react'
 
-
+import About from './About'
 
 function Navbar() {
     useGSAP(()=>{
@@ -27,7 +27,7 @@ function Navbar() {
     <div className='w-[100%] text-xl flex justify-between'>
         <div className="menu flex flex-col gap-2">
         <a href="" className="ele text-white uppercase md:font-medium sm:font-xs text-[1rem] cursor-pointer hover:text-yellow-400">home</a>
-            <a href=".about" className="ele text-white uppercase font-medium text-[1rem] cursor-pointer hover:text-yellow-400">About Us</a>
+            <a href="About.jsx" className="ele text-white uppercase font-medium text-[1rem] cursor-pointer hover:text-yellow-400">About Us</a>
             <a href="" className="ele text-white uppercase font-medium text-[1rem] cursor-pointer hover:text-yellow-400">Services</a>
             <a href="" className="ele text-white uppercase font-medium text-[1rem] cursor-pointer hover:text-yellow-400">Portfolio</a>
             <a href="" className="ele text-white uppercase font-medium text-[1rem] cursor-pointer hover:text-yellow-400">Testimonials</a>

@@ -17,14 +17,14 @@ function Hero() {
     <div data-scroll data-scroll-speed="-0.5" className="bg-[#141414] h-screen w-full flex overflow-hidden">
       <div className="img w-1/2 overflow-hidden">
         <img
-          src="https://files.oaiusercontent.com/file-fzYuamHGbM8L21N257Gg3kXS?se=2024-11-06T19%3A39%3A08Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Db4a45a1e-8ee7-4ef8-a6b4-b8c459e94e92.webp&sig=OeWde77h0kP3HuZTni%2BlovJ76w%2Bt5vFZIt4dHyBIlWU%3D"
+          src="https://files.oaiusercontent.com/file-nCoXbU57fPumj1B1xFh92RW2?se=2024-11-13T19%3A49%3A09Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D508ca1df-90de-4630-a8f6-8a2a5276f443.webp&sig=xyMPkkH%2B0uu3zenJluPCbi4VmFk%2BfB7Lj3rwwhaVCLk%3D"
           alt=""
         />
       </div>
       <div className="content w-1/2 p-6 relative">
         <Navbar />
         <div className="inner-content z-10">
-          <h1 className="text-[9vw] mt-10 text-yellow-400 tracking-wider leading-none font-bold font-posterable">
+          <h1 className="text-[8.5vw] mt-10 text-yellow-400 tracking-wider leading-none font-bold font-['TENADA']">
             centurion
           </h1>
           <h2 className="leading-tight mt-0 uppercase text-[2.5vw] tracking-[1.5rem] text-right text-white">

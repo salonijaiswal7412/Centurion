@@ -4,8 +4,8 @@
 
 /* src/index.css or src/App.css */
 @font-face {
-    font-family: 'POSTERABLE';
-    src: url('./assets/POSTERABLE.ttf') format('truetype');
+    font-family: 'TENADA';
+    src: url('./assets/Tenada.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
