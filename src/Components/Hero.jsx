@@ -24,7 +24,7 @@ function Hero() {
       <div className="content w-1/2 p-6 relative">
         <Navbar />
         <div className="inner-content z-10">
-          <h1 className="text-[8.5vw] mt-10 text-yellow-400 tracking-wider leading-none font-bold font-['TENADA']">
+          <h1 className="text-[8.7vw] mt-10 text-yellow-400 tracking-wider leading-none font-bold  font-posterable">
             centurion
           </h1>
           <h2 className="leading-tight mt-0 uppercase text-[2.5vw] tracking-[1.5rem] text-right text-white">

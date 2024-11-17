@@ -5,6 +5,8 @@ import Hero from './Components/Hero';
 import About from './Components/About';
 import Services from './Components/Services';
 import WhyUs from './Components/WhyUs';
+import Client from './Components/Client';
+import CTA from './Components/CTA';
 
 
 
@@ -19,6 +21,8 @@ function App() {
       <About/>
       <Services/>
       <WhyUs/>
+      <Client/>
+      <CTA/>
       
       
     </div>

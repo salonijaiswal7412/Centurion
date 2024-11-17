@@ -2,6 +2,9 @@ import React, { useLayoutEffect } from 'react';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Card from './Card';
+import { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -29,14 +32,16 @@ function Services() {
 
     return () => ctx.revert();
   }, []);
- 
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
   return (
     <main id="container" className="w-screen h-screen overflow-hidden flex">
      
       <section className="horizontal-section flex-shrink-0 p-16 w-full h-full  justify-center items-center bg-[#141414]">
-        <h1 className="heading font-extrabold tracking-wider  text-white text-8xl uppercase heading">Our Services</h1>
-        <div className="vid w-[80%] bg-red-400 m-auto h-[80%] border-solid border-yellow-400 border-2 rounded-2xl mt-10 overflow-hidden">
-        <video
+        <h1 data-aos="fade-right" className="heading  tracking-wider uppercase  text-white text-8xl  heading font-posterable">Our <span  className='text-[#facc15]'>Services</span></h1>
+        <div data-aos="fade-right" className="vid w-[80%] bg-red-400 m-auto h-[80%] border-solid border-yellow-400 border-2 rounded-2xl mt-10 overflow-hidden">
+        <video  data-aos="fade-right"
           src='./src/assets/Images/Servicesvid.mp4'
           autoPlay
           controls
