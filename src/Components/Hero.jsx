@@ -17,7 +17,7 @@ function Hero() {
     <div data-scroll data-scroll-speed="-0.5" className="bg-[#141414] h-screen w-full flex overflow-hidden">
       <div className="img w-1/2 overflow-hidden">
         <img
-          src="https://files.oaiusercontent.com/file-nCoXbU57fPumj1B1xFh92RW2?se=2024-11-13T19%3A49%3A09Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D508ca1df-90de-4630-a8f6-8a2a5276f443.webp&sig=xyMPkkH%2B0uu3zenJluPCbi4VmFk%2BfB7Lj3rwwhaVCLk%3D"
+          src="./src/assets/Images/herobg.png"
           alt=""
         />
       </div>
