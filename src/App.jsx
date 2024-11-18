@@ -7,6 +7,7 @@ import Services from './Components/Services';
 import WhyUs from './Components/WhyUs';
 import Client from './Components/Client';
 import CTA from './Components/CTA';
+import Contact from './Components/Contact';
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <WhyUs/>
       <Client/>
       <CTA/>
+      <Contact/>
       
       
     </div>
