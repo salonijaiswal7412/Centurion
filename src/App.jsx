@@ -8,6 +8,7 @@ import WhyUs from './Components/WhyUs';
 import Client from './Components/Client';
 import CTA from './Components/CTA';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 
 
@@ -25,6 +26,7 @@ function App() {
       <Client/>
       <CTA/>
       <Contact/>
+      <Footer/>
       
       
     </div>
