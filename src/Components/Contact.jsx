@@ -8,7 +8,7 @@ function Contact() {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <div data-scroll data-scroll-speed="0.4" className='w-full min-h-screen'>
+    <div id="contact" data-scroll data-scroll-speed="0.4" className='w-full min-h-screen'>
       <div  className="contact w-[80%] border-2 border-[#facc15] rounded-xl h-full m-auto p-10">
       <h2 data-aos="fade-up" className='text-center text-zinc-400 text-3xl'>We’re just a call or message away!</h2>
       <h1 data-aos="fade-up" className='text-7xl text-center text-[#facc15] font-posterable mt-5 tracking-wider uppercase'>Contact Us Now!!</h1>

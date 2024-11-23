@@ -36,7 +36,7 @@ function Services() {
     AOS.init({ duration: 1500 });
   }, []);
   return (
-    <main id="container" className="w-screen h-screen overflow-hidden flex">
+    <main id="container" className="services w-screen h-screen overflow-hidden flex">
      
       <section className="horizontal-section flex-shrink-0 p-16 w-full h-full  justify-center items-center bg-[#141414]">
         <h1 data-aos="fade-right" className="heading  tracking-wider uppercase  text-white text-8xl  heading font-posterable">Our <span  className='text-[#facc15]'>Services</span></h1>

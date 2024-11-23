@@ -2,7 +2,7 @@ import React from 'react'
 
 function Client() {
     return (
-        <div className='w-full h-[90vh] p-10 mb-10'>
+        <div id="client" className='w-full h-[90vh] p-10 mb-10'>
             <h1 className='text-white text-[4.2rem] font-posterable'>What Our <span className='text-[#facc15]'>Clients</span> Say?</h1>
             <p className='text-md text-zinc-400 w-1/2 mx-2  text-justify'>Discover why businesses and individuals trust Centurion Print Point for their printing needs. Read stories from our satisfied clients who have experienced our commitment to quality, speed, and exceptional service.</p>
             <div className="clients w-full min-h-2/3  mt-5 flex ">

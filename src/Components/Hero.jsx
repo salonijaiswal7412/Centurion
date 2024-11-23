@@ -14,7 +14,7 @@ function Hero() {
   }, []);
 
   return (
-    <div data-scroll data-scroll-speed="-0.5" className="bg-[#141414] h-screen w-full flex overflow-hidden">
+    <div id="home" data-scroll data-scroll-speed="-0.5" className="bg-[#141414] h-screen w-full flex overflow-hidden">
       <div className="img w-1/2 overflow-hidden">
         <img
           src="./src/assets/Images/herobg.png"
@@ -33,9 +33,9 @@ function Hero() {
           <p className="mt-5 w-[70%] ml-[28%] text-justify text-lg tracking-tight leading-tight text-zinc-400">
             "From vibrant business cards to striking banners, Centurion Print Point brings your ideas to life with precision and style. Discover a world of high-quality printing tailored to meet your needs."
           </p>
-          <button className="w-[30%] px-2 py-3 text-xl font-semibold text-yellow-400 border-[1px] border-yellow-400 bg-transparent rounded-full absolute right-12 mt-5">
-            Get Started With Us
-          </button>
+        <a href="#cta">  <button className="w-[30%] px-2 py-3 text-xl font-semibold text-yellow-400 border-[1px] border-yellow-400 bg-transparent rounded-full absolute right-12 mt-5" >
+          Get Started With Us
+          </button></a>
         </div>
       </div>
     </div>

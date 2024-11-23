@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div data-scroll data-scroll-speed=".1" className='pt-72 p-12 about z-20 xw-screen min-h-screen bg-[url("./src/assets/Images/AboutBg.png")] bg-cover   '>
+    <div data-scroll data-scroll-speed=".1" className='pt-72 p-12 about z-20 xw-screen min-h-screen bg-[url("./src/assets/Images/AboutBg.png")] bg-cover   ' id="about">
       <div className="mission-outer flex ">
       <div className="content w-2/3 overflow-y-auto">
         <div data-scroll-speed="-0.1" data-scroll className="heading ">

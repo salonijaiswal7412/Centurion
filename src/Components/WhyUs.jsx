@@ -8,7 +8,7 @@ function WhyUs() {
     AOS.init({ duration: 1500 });
   }, []);
   return (
-    <div data-scroll data-scroll-speed="0.6" className='w-full h-screen bg-zinc-750 p-10 bg-[url("./src/assets/Images/WhyUS.png")] bg-cover'>
+    <div id="whyus"data-scroll data-scroll-speed="0.6" className='w-full h-screen bg-zinc-750 p-10 bg-[url("./src/assets/Images/WhyUS.png")] bg-cover'>
         <h1   className='text-center font-posterable text-6xl font-thin tracking-wide text-white  uppercase '>Why <span className='text-[#facc15] '>Choose</span> Us?</h1>
         <div className='mt-8 w-[40vw] m-auto'>
             <h3 data-aos="fade-left" className='text-center text-white text-3xl  duration-200 cursor-pointer peer hover:text-[#facc15] '>Advanced Technology</h3>
