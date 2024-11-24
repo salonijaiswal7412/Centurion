@@ -19,7 +19,7 @@ const Trial = () => {
     };
 
     return (
-        <div data-scroll data-scroll-speed="1"className='w-full min-h-screen bg-[#141414] p-10'>
+        <div className='w-full min-h-screen bg-[#141414] p-10'>
 
             <h1 className='text-8xl text-center font-posterable text-zinc-300'>Upload Your <span className='text-[#facc15]'>Design </span></h1>
             <h2 className='text-5xl text-center font-posterable text-zinc-500'>and See It on Realistic Mockups</h2>
@@ -57,7 +57,7 @@ const Trial = () => {
                 <div className="col flex flex-col w-[30%] gap-10 py-10 ">
                     
                     <div className='shadow-2xl relative bg-[url("https://i.pinimg.com/474x/5b/31/2e/5b312e2237e3f18fe914a930fb80a267.jpg")] bg-cover w-[100%] h-1/3 rounded-lg overflow-hidden'>
-                        <img src={image} alt="" className='absolute top-[27%] w-[58%] h-[55%] left-[44%]' />
+                        <img src={image} alt="" className='absolute top-[27%] w-[50%] h-[55%] left-[42%]' />
                     </div>
 
                     <div className='shadow-2xl relative bg-[url("https://i.pinimg.com/736x/46/65/f1/4665f165f312e453a9f273aaaf0f4bbc.jpg")] bg-cover w-[100%] h-1/3 rounded-lg overflow-hidden'>

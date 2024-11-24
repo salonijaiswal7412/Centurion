@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
 import Navbar from './Navbar';
+import { useNavigate } from 'react-router-dom';
 
 function Hero() {
   useGSAP(() => {
@@ -12,6 +13,13 @@ function Hero() {
       duration: 1,
     });
   }, []);
+  // Use React Router's navigate hook
+  const navigate = useNavigate();
+
+  // Function to handle button click
+  const handleClick = () => {
+    navigate('/trial'); // Navigate to the '/trial' route
+  };
 
   return (
     <div id="home" data-scroll data-scroll-speed="-0.5" className="bg-[#141414] h-screen w-full flex overflow-hidden">
@@ -33,9 +41,9 @@ function Hero() {
           <p className="mt-5 w-[70%] ml-[28%] text-justify text-lg tracking-tight leading-tight text-zinc-400">
             "From vibrant business cards to striking banners, Centurion Print Point brings your ideas to life with precision and style. Discover a world of high-quality printing tailored to meet your needs."
           </p>
-        <a href="#cta">  <button className="w-[30%] px-2 py-3 text-xl font-semibold text-yellow-400 border-[1px] border-yellow-400 bg-transparent rounded-full absolute right-12 mt-5" >
+        <button className="w-[30%] px-2 py-3 text-xl font-semibold text-yellow-400 border-[1px] border-yellow-400 bg-transparent rounded-full absolute right-12 mt-5" onClick={handleClick}>
           Get Started With Us
-          </button></a>
+          </button>
         </div>
       </div>
     </div>
