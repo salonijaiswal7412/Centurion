@@ -9,6 +9,7 @@ import Client from './Components/Client';
 import CTA from './Components/CTA';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import Trial from './Components/Trial';
 
 
 
@@ -19,14 +20,15 @@ function App() {
     
     <div  className='min-h-screen overflow-hidden bg-[#141414]'>
       
-      <Hero/>
+      {/* <Hero/>
       <About/>
       <Services/>
       <WhyUs/>
       <Client/>
       <CTA/>
       <Contact/>
-      <Footer/>
+      <Footer/> */}
+      <Trial/>
       
       
     </div>
