@@ -59,13 +59,10 @@ The project can be easily deployed to any static hosting service, such as **Verc
 - Add backend functionality for handling form submissions.
 - Expand the content with a portfolio section showcasing completed projects.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Feel free to fork the repository, open issues, or contribute to this project. For any queries, reach out to me at [your-email@example.com].
+Feel free to fork the repository, open issues, or contribute to this project. 
 
 ## Acknowledgments
 
